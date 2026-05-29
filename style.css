@@ -6,10 +6,9 @@ body {
 }
 
 header {
-    background-color: #14532d;
-    padding: 20px;
-    border-radius: 12px;
     text-align: center;
+    padding: 30px;
+    border-bottom: 3px solid #4CAF50;
 }
 
 section {
@@ -30,6 +29,7 @@ a {
 
 a:hover {
     color: #38bdf8;
+    text-decoration: underline;
 }
 
 img {
@@ -48,7 +48,7 @@ h1 {
 }
 
 h2 {
-    font-style: italic;
+    font-style: normal;
 }
 
 p {
@@ -65,4 +65,32 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.feature-box {
+    margin: 30px;
+    padding: 25px;
+    border: 2px solid #86efac;
+    border-left: 8px solid #38bdf8;
+    width: 80%;
+    height: 50%;
+}
+
+#wildlife {
+    background-color: #064e3b;
+}
+
+nav {
+    margin-top: 15px;
+    text-align: center;
+}
+
+nav a {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
 }

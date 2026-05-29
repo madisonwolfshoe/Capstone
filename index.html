@@ -16,25 +16,26 @@
 </head>
 
 <body>
-
+    <div class="page-container">
     <header>
 
         <h1>Madison's Vancouver Hikes and Wildlife Website</h1>
 
         <p>
             This website shares information about hikes, nature, and wildlife around Vancouver.
-        </p>
-       
-        <p>
-            This sentence uses the <strong>strong element</strong>
-            and this sentence uses the <em>em element</em>.
-       </p>
-        
+        </p>  
+    <nav>
+    
+            <a href="#about">About</a> |
+            <a href="#hikes">Hikes</a> |
+            <a href="#wildlife">Wildlife</a> |
+            <a href="#footer">Contact</a>
+    </nav>
     </header>
 
     <main>
 
-        <section>
+        <section id="about">
 
             <h2>About This Website </h2>
 
@@ -44,73 +45,98 @@
 
         </section>
 
-        <section>
+        <section id="hikes">
 
-            <h2>Popular Vancouver Hikes</h2>
+    <h2>Popular Vancouver Hikes</h2>
 
     <p>
-        Vancouver has many beautiful hiking trails with forests,
-        mountains, waterfalls, and amazing views.
-   </p>
+        Vancouver has many beautiful hiking trails with forests, mountains,
+        waterfalls, and amazing views. These trails are popular for exercise,
+        sightseeing, and enjoying nature.
+    </p>
 
- <ul>
+    <img src="images/grouse.jpg"
+         alt="Hikers on the Grouse Grind trail"
+         width="350">
+
+    <p>
+        The Grouse Grind is one of Vancouver's most famous hiking trails.
+        It is a steep forest trail that challenges hikers and leads to
+        beautiful mountain views.
+    </p>
+
+    <h3>Popular Trails</h3>
+
+    <ul>
         <li>Grouse Grind</li>
         <li>Quarry Rock</li>
         <li>Stawamus Chief</li>
         <li>Joffre Lakes</li>
-</ul>
+    </ul>
+
+    <p>
+        Photo source:
+        <a href="https://images.pexels.com/photos/21919012/pexels-photo-21919012.jpeg"
+           target="_blank">
+            Photo from Pexels
+        </a>
+    </p>
+
+</section>
+
+        <section>
+
+            <h2>Why I Chose This Topic</h2>
+
+            <p>
+                 I chose Vancouver hikes and wildlife because I enjoy spending time outdoors and exploring nature.
+                 Vancouver is known for its beautiful forests, mountains, lakes, and wildlife. This website shares
+                 some of the places and animals that make the area unique.
+            </p>
+
+
 
         </section>
 
         <section>
 
-            <h2>Steps I Took</h2>
+            <h2>Bald Eagles of British Columbia</h2>
 
             <p>
-                These are the steps I followed to create my webpage:
+                The bald eagle is one of the most recognizable birds in British Columbia. These powerful birds can often be seen near rivers, coastlines, and forests around Vancouver. Bald eagles are known for their impressive wingspan, sharp eyesight, and important role in the local ecosystem.
             </p>
-
-            <ol>
-                <li>Opened my project folder in VS Code</li>
-                <li>Created my HTML structure</li>
-                <li>Added a header, sections, paragraphs, and lists</li>
-                <li>Saved my index.html file</li>
-                <li>Prepared my folder to be zipped and submitted</li>
-            </ol>
-
-        </section>
-
-        <section>
-
-            <h2>Images and Links</h2>
-
-            <p>
-                This section shows an image with custom
-                width and height and hyperlinks.
-            </p>
-
+            
             <img src="images/eagle.jpg"
                  alt="Photo of a bald eagle"
                  width="400"
                  height="300">
 
             <p>
-                This is an external link:
+                Photo Source:
                 <a href="https://images.pexels.com/photos/31519183/pexels-photo-31519183.jpeg"
                    target="_blank">
                     Visit Pexels
+
                 </a>
             </p>
 
             <p>
-                This is an internal link:
                 <a href="#footer">
-                    Go to Footer
-                </a>
-            </p>
+                   Go to Footer
+               </a>
+           </p>
 
-        </section>
+         </section>
 
+         <section id="wildlife" class="feature-box">
+
+    <h2>Featured Vancouver Adventure</h2>
+
+    <p>
+        One of my favourite outdoor adventures near Vancouver is visiting mountain trails and viewpoints. These locations offer incredible scenery, fresh air, and opportunities to see local wildlife.
+   </p>
+
+      </section>
     </main>
 
     <footer id="footer">
@@ -121,6 +147,6 @@
 
     </footer>
 
+</div>
 </body>
-
 </html>
