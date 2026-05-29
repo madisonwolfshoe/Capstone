@@ -5,10 +5,53 @@ body {
     margin: 20px;
 }
 
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 header {
+    background: linear-gradient(to right, #14532d, #166534, #15803d);
+    color: white;
     text-align: center;
-    padding: 30px;
-    border-bottom: 3px solid #4CAF50;
+    padding: 80px 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 15px black;
+}
+
+header h1 {
+    font-size: 56px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+header::after {
+    content: "🌲 🦅 🏔️";
+    display: block;
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+nav {
+    margin-top: 15px;
+    text-align: center;
+}
+
+nav a {
+    background-color: white;
+    color: #14532d;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 section {
@@ -19,12 +62,34 @@ section {
     box-shadow: 2px 2px 8px black;
 }
 
-h1, h2 {
+.feature-box {
+    background-color: #243b53;
+    margin: 30px;
+    padding: 25px;
+    border-left: 8px solid #38bdf8;
+    border-radius: 12px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h2 {
     color: #86efac;
+    font-style: normal;
+}
+
+p {
+    line-height: 2;
+}
+
+section p {
+    font-size: 18px;
 }
 
 a {
     color: #7dd3fc;
+    text-decoration: none;
 }
 
 a:hover {
@@ -41,56 +106,4 @@ footer {
     text-align: center;
     margin-top: 20px;
     color: #94a3b8;
-}
- 
-h1 {
-    font-weight: bold;
-}
-
-h2 {
-    font-style: normal;
-}
-
-p {
-    line-height: 2;
-}
-
-section p {
-    font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.feature-box {
-    margin: 30px;
-    padding: 25px;
-    border: 2px solid #86efac;
-    border-left: 8px solid #38bdf8;
-    width: 80%;
-    height: 50%;
-}
-
-#wildlife {
-    background-color: #064e3b;
-}
-
-nav {
-    margin-top: 15px;
-    text-align: center;
-}
-
-nav a {
-    padding: 10px;
-    font-weight: bold;
-}
-
-.page-container {
-    max-width: 1000px;
-    margin: 0 auto;
 }
